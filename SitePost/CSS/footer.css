@@ -1,0 +1,45 @@
+
+
+a.f, a.f:visited, a.f:active{
+	transition: all 0.2s ease;
+	text-decoration: none;
+}
+a.f:hover{
+	color: #ffa600;
+}
+footer{
+	background-color: #212121;
+	padding: 30px 100px;
+}
+footer a.f, h3.f, label.f, p.copyright{
+	color: white;
+	font-family: "Nom de la police", sans-serif;
+}
+footer h3{
+	margin: 10px;
+	text-align: center;
+}
+.icone{
+	color: white;
+	transition: color 0.5s ease;
+}
+.icone:hover{
+	color: #ffa600;
+}
+
+
+
+.footer-top{
+	display: flex;
+	margin: 40px;
+	justify-content: center;
+	gap: 30px;
+}
+.footer-col a.f{
+	display: block;
+	text-align: center;
+}
+.footer-middle, .footer-bottom{
+	width: 100%;
+	text-align: center;
+}

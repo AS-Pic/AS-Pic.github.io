@@ -1,0 +1,56 @@
+div.conteneur{
+    font-family: "Nom de la police", sans-serif;
+}
+div.titre-body{
+    text-align: center;
+}
+div.txt-bas {
+    text-align: center;
+    font-size: 20px;
+}
+img.imecanique {
+    display: flex;
+    max-height: 400px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 22px;
+}h1.titre {
+    background: linear-gradient(to right, gray, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+}
+ol.sommaire, li {
+    font-weight: bold;
+}
+div.txt-bas, p {
+    font-weight: bold;
+}
+
+div.emojis3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+div.emo4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+ol.compétences, li{
+    margin-bottom: 25px;
+}
+h2 {
+    color: darkred;
+}
+a.f {
+    color: inherit;
+}
+div.img-block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
